@@ -1,19 +1,19 @@
 .header {
-	height: 500px;
+	height: calc(100vh - 5.4rem);
+	max-height: 100rem;
 	margin: 0;
 	h1 {
 		font-weight: 700;
 		color: $black;
 		text-shadow: $white 0.2rem 0.2rem 0.2rem;
+		font-size: 2.5rem;
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 576px) {
 	.header {
-		height: 500px;
 		h1 {
-			font-weight: 700;
-			font-size: 2.5rem;
+			font-size: 7.5rem;
 		}
 	}
 }

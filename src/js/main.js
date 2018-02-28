@@ -10,9 +10,6 @@ const load = {
 	map: () => {
 		$('.info__maps').html('<iframe title="Mapa" class="info__maps--map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1249.2361223668147!2d22.58897565834921!3d51.228797094897594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257023f988519%3A0x3baada60bef41172!2sKosmonaut%C3%B3w+78%2C+20-358+Lublin!5e0!3m2!1spl!2spl!4v1518270203604" frameborder="0" style="border:0" allowfullscreen></iframe>');
 	},
-	bg: () => {
-		$('head').append('<link rel="stylesheet" href="css/app2.css">');
-	},
 };
 const zoom = () => {
 	$(".mainNavBar__menu--zoomPlus").click(function () {
@@ -57,5 +54,4 @@ $(document).ready(function () {
 
 $(window).on("load", function () {
 	load.map();
-	load.bg();
 });

@@ -1,26 +1,7 @@
-
-@media screen and (min-width: 576px) {
-	.bg {
-		&__header {
-			background: url(http://localhost:3000/img/homeMid0.jpg) center center repeat;
-			background-size: auto 500px;
-		}
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.bg {
-		&__header {
-			background: url(http://localhost:3000/img/homeFull0.jpg) center center repeat;
-			background-size: auto 500px;
-		}
-	}
-}
-
 .bg {
 	&__header {
-		background: url(http://localhost:3000/img/homeMin0.jpg) center center repeat;
-		background-size: auto 500px;
+		background: url(http://localhost:3000/img/headerBGmin.jpg) center center repeat;
+		background-size: auto 1000px;
 	}
 	&__box {
 		&--oNas {
@@ -52,3 +33,22 @@
 		}
 	}
 }
+
+@media screen and (min-width: 576px) {
+	.bg {
+		&__header {
+			background: url(http://localhost:3000/img/headerBGmid.jpg) center center no-repeat;
+			background-size: auto 1000px;
+		}
+	}
+}
+
+@media screen and (min-width: 996px) {
+	.bg {
+		&__header {
+			background: url(http://localhost:3000/img/headerBG.jpg) center center no-repeat;
+			background-size: auto 1000px;
+		}
+	}
+}
+
