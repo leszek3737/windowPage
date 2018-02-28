@@ -1,0 +1,19 @@
+.mainNavBar {
+    text-transform:uppercase;
+    font-weight: 700;
+    &__logo {
+        &--img {
+            height: $logo-size;
+        }
+    }
+    &__menu{
+        &--img {
+            height: 2rem;
+        }
+        &--zoom{
+            &Plus{
+                margin-left: auto;
+            }
+        }
+    }
+}

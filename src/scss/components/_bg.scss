@@ -1,0 +1,54 @@
+
+@media screen and (min-width: 576px) {
+	.bg {
+		&__header {
+			background: url(http://localhost:3000/img/homeMid0.jpg) center center repeat;
+			background-size: auto 500px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.bg {
+		&__header {
+			background: url(http://localhost:3000/img/homeFull0.jpg) center center repeat;
+			background-size: auto 500px;
+		}
+	}
+}
+
+.bg {
+	&__header {
+		background: url(http://localhost:3000/img/homeMin0.jpg) center center repeat;
+		background-size: auto 500px;
+	}
+	&__box {
+		&--oNas {
+			background: url(http://localhost:3000/img/oNasBox0.jpg) center center repeat;
+		}
+		&--historia {
+			background: url(http://localhost:3000/img/oNasBox0.jpg) center center repeat;
+		}
+		&--terapia {
+			background: url(http://localhost:3000/img/terapiaBox0.jpg) center center repeat;
+		}
+		&--pobyt {
+			background: url(http://localhost:3000/img/pobytBox.jpg) center center repeat;
+		}
+		&--rechabilitacjia {
+			background: url(http://localhost:3000/img/rechabilitacjiaBox.jpg) center center repeat;
+		}
+		&--stowarzyszenie {
+			background: url(http://localhost:3000/img/stowarzyszenieBox.jpg) center center repeat;
+		}
+		&--wolontariat {
+			background: url(http://localhost:3000/img/wolontariatBox.jpg) center center repeat;
+		}
+		&--kaplica {
+			background: url(http://localhost:3000/img/kaplicaBox.jpg) center center repeat;
+		}
+		&--prezentacjia {
+			background: url(http://localhost:3000/img/prezentacjiaBox.jpg) center center repeat;
+		}
+	}
+}
